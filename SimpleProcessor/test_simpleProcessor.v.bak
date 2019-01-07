@@ -1,0 +1,59 @@
+`timescale 100ps/10ps
+module test_simpleProcessor();
+  reg[31:0] ins;
+  reg rstCounter_;  
+  reg clk;
+  wire zf, of;
+
+  parameter halfCycleT = 1;
+  parameter delay = halfCycleT*8*2;
+
+  simpleProcessor1 s0(
+  .o_zf(zf),
+  .o_of(of),
+  .i_rstCounter_(rstCounter_),
+  .i_clk(clk)
+  );
+  
+  initial begin
+    	clk = 1;
+        //initialize value 
+        //for Register File
+    	s0.d0.re0.rfc[2] = 32'b10;
+    	s0.d0.re0.rfc[3] = 32'b11;  	
+        //for Instruction Memory
+        s0.d0.insMem0.r0.memoryCell[3]  = 8'b000001_00;
+        s0.d0.insMem0.r0.memoryCell[2]  = 8'b010_00011;
+        s0.d0.insMem0.r0.memoryCell[1]  = 8'b00001_000;
+        s0.d0.insMem0.r0.memoryCell[0]  = 8'b00_000000; //add $1, $2, $3;
+
+        s0.d0.insMem0.r0.memoryCell[7]  = 8'b000010_00;
+        s0.d0.insMem0.r0.memoryCell[6]  = 8'b011_00001;
+        s0.d0.insMem0.r0.memoryCell[5]  = 8'b00000000;
+        s0.d0.insMem0.r0.memoryCell[4]  = 8'b00000100;   //sw $1, 4($3);
+
+        s0.d0.insMem0.r0.memoryCell[11] = 8'b000100_00;
+        s0.d0.insMem0.r0.memoryCell[10] = 8'b011_00010;
+        s0.d0.insMem0.r0.memoryCell[9]  = 8'b00000000;
+        s0.d0.insMem0.r0.memoryCell[8]  = 8'b00000100;   //lw $2, 4($3);
+		
+        rstCounter_ = 1'b0; #2 rstCounter_ = 1'b1;
+        //for Progran Counter
+    	force s0.d0.pc0.memoryCell = 32'b0;
+
+	    //add $1, $2, $3;
+    	#(delay-4);
+		$stop;
+		force s0.d0.pc0.memoryCell = 32'b0100;
+		//rstCounter_ = 1'b0; #2 rstCounter_ = 1'b1;
+    	
+	    //sw $1, 4($3);
+	    #delay;
+
+	    //lw $2, 4($3);
+     	#delay;
+  end
+  
+  always #halfCycleT clk = ~ clk;
+endmodule
+

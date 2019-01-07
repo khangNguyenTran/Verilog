@@ -1,0 +1,318 @@
+{F:/Verilog Workspace/SimpleProcessor/decoder.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/decoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder_2to4
+-- Compiling module decoder_5to32
+
+Top level modules:
+	decoder_2to4
+	decoder_5to32
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/subtractor_32b.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/subtractor_32b.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module subtractor_32b
+
+Top level modules:
+	subtractor_32b
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/signExtender.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/signExtender.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module signExtender_rtl_16to32
+-- Compiling module signExtender_rtl_NtoM
+
+Top level modules:
+	signExtender_rtl_16to32
+	signExtender_rtl_NtoM
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/dff.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/dff.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dff_str1
+-- Compiling module dff_str2
+-- Compiling module dff_rtl1
+-- Compiling module dff_rtl2
+-- Compiling module dff_beh1
+-- Compiling module dff_beh2
+
+Top level modules:
+	dff_str1
+	dff_str2
+	dff_rtl1
+	dff_rtl2
+	dff_beh1
+	dff_beh2
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/ALU_32b.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/ALU_32b.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU_32b_1
+-- Compiling module ALU_32b_2
+
+Top level modules:
+	ALU_32b_1
+	ALU_32b_2
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/and_32x1.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/and_32x1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module and_32x1
+
+Top level modules:
+	and_32x1
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/test_simpleProcessor.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/test_simpleProcessor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module test_simpleProcessor
+
+Top level modules:
+	test_simpleProcessor
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/backup_byteCounter.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/backup_byteCounter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module byteCounter
+
+Top level modules:
+	byteCounter
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/controlUnit.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/controlUnit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module controlUnit
+-- Compiling module ALUcontrol
+-- Compiling module PCsrcSignal
+
+Top level modules:
+	controlUnit
+	ALUcontrol
+	PCsrcSignal
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/memoryCell.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/memoryCell.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module memoryCell
+
+Top level modules:
+	memoryCell
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/and_nx1.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/and_nx1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module and_nx1
+
+Top level modules:
+	and_nx1
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/simpleProcessor.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/simpleProcessor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module simpleProcessor1
+
+Top level modules:
+	simpleProcessor1
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/mux_STR.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/mux_STR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux2to1_str
+-- Compiling module mux4to1_str
+-- Compiling module mux2to1_str_1b
+-- Compiling module mux4to1_str_1b
+
+Top level modules:
+	mux2to1_str
+	mux4to1_str
+	mux2to1_str_1b
+	mux4to1_str_1b
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/test_byteCounter.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/test_byteCounter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module test_byteCounter
+
+Top level modules:
+	test_byteCounter
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/PC.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/PC.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/byteCounter.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/byteCounter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module byteCounter1
+-- Compiling module byteCounter2
+-- Compiling module byteCounter3
+-- Compiling module byteCounter1_
+
+Top level modules:
+	byteCounter1
+	byteCounter2
+	byteCounter3
+	byteCounter1_
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/shifter_a.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/shifter_a.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shifter_nb
+-- Compiling module shifter_8b
+-- Compiling module shifter_beh_1
+-- Compiling module shifter_beh_2
+-- Compiling module shifter_beh_3
+
+Top level modules:
+	shifter_nb
+	shifter_8b
+	shifter_beh_1
+	shifter_beh_2
+	shifter_beh_3
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/registerFileCell.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/registerFileCell.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RFC
+
+Top level modules:
+	RFC
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/d-latch.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/d-latch.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dlatch_srt1
+-- Compiling module dlatch_rtl1
+-- Compiling module dlatch_s1
+
+Top level modules:
+	dlatch_srt1
+	dlatch_rtl1
+	dlatch_s1
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/wordBuffer.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/wordBuffer.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module wordBuffer
+
+Top level modules:
+	wordBuffer
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/test_signExtender.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/test_signExtender.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module test_signExtender
+
+Top level modules:
+	test_signExtender
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/datapath.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module datapath1
+-- Compiling module datapath2
+
+Top level modules:
+	datapath1
+	datapath2
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/programCounter.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/programCounter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pc_str
+-- Compiling module pc_beh1
+-- Compiling module pc_beh2
+
+Top level modules:
+	pc_str
+	pc_beh1
+	pc_beh2
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/frequencyDivider.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/frequencyDivider.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module frequencyDivider_beh
+
+Top level modules:
+	frequencyDivider_beh
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/test_instructionMemory.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/test_instructionMemory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module test_instructionMemory
+
+Top level modules:
+	test_instructionMemory
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/test_pc.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/test_pc.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module test_pc
+
+Top level modules:
+	test_pc
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/complement_32b.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/complement_32b.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module complement_32b
+
+Top level modules:
+	complement_32b
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/mux_RTL.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/mux_RTL.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux2to1_rtl
+-- Compiling module mux4to1_rtl
+-- Compiling module mux2to1_rtl_1b
+-- Compiling module mux4to1_rtl_1b
+-- Compiling module mux2to1_rtl_32b
+-- Compiling module mux4to1_rtl_32b
+-- Compiling module mux8to1_rtl_32b
+
+Top level modules:
+	mux2to1_rtl
+	mux4to1_rtl
+	mux2to1_rtl_1b
+	mux4to1_rtl_1b
+	mux2to1_rtl_32b
+	mux4to1_rtl_32b
+	mux8to1_rtl_32b
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/instructionMemory.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/instructionMemory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module instructionMemory1
+-- Compiling module instructionMemory2
+
+Top level modules:
+	instructionMemory1
+	instructionMemory2
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/basicSRAM4x2.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/basicSRAM4x2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module basicSRAM4x2
+
+Top level modules:
+	basicSRAM4x2
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/counter_up.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/counter_up.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module counter_4b_u1
+-- Compiling module counter_4b_u2b
+
+Top level modules:
+	counter_4b_u1
+	counter_4b_u2b
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/fulladder_RTL.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/fulladder_RTL.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fa_1b
+-- Compiling module fa_2b
+-- Compiling module fa_4b
+-- Compiling module fa_8b
+-- Compiling module fa_16b
+-- Compiling module fa_32b
+
+Top level modules:
+	fa_2b
+	fa_4b
+	fa_32b
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/registerFile.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/registerFile.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module registerFile_rtl_32x32_1
+-- Compiling module registerFile_beh_32x32_1
+-- Compiling module registerFile_beh_32x32_2
+-- Compiling module registerFile_beh_32x32_3
+
+Top level modules:
+	registerFile_rtl_32x32_1
+	registerFile_beh_32x32_1
+	registerFile_beh_32x32_2
+	registerFile_beh_32x32_3
+
+} {} {}} {F:/Verilog Workspace/SimpleProcessor/RAM4Gb.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/SimpleProcessor/RAM4Gb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dataMem_beh
+
+Top level modules:
+	dataMem_beh
+
+} {} {}}
