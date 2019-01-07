@@ -1,0 +1,1334 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/Verilog Workspace/SimpleProcessor
+vALU_32b_1
+Z0 !s110 1546863653
+!i10b 1
+!s100 CkWR1=:DX_]GDfWg?H53T1
+In3c1z_jbGNf7R@8I4Z?gA3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dF:/Verilog Workspace/OneCounter
+Z3 w1540654460
+Z4 8F:/Verilog Workspace/OneCounter/ALU_32b.v
+Z5 FF:/Verilog Workspace/OneCounter/ALU_32b.v
+Z6 L0 14
+Z7 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z8 !s108 1546863653.000000
+Z9 !s107 F:/Verilog Workspace/OneCounter/ALU_32b.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|F:/Verilog Workspace/OneCounter/ALU_32b.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@a@l@u_32b_1
+vALU_32b_2
+R0
+!i10b 1
+!s100 P11NQE24Y4gfS>F3Gje`N1
+I2T^Ra0UXP0CWlW_L`BIXV2
+R1
+R2
+R3
+R4
+R5
+Z13 L0 61
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@a@l@u_32b_2
+vand_32x1
+R0
+!i10b 1
+!s100 6VInbLalmV@GUKI30om@D1
+I2AVRFCJ>A4olg[4o5j0HY2
+R1
+R2
+w1543982211
+8F:/Verilog Workspace/OneCounter/and_32x1.v
+FF:/Verilog Workspace/OneCounter/and_32x1.v
+L0 2
+R7
+r1
+!s85 0
+31
+R8
+!s107 F:/Verilog Workspace/OneCounter/and_32x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/Verilog Workspace/OneCounter/and_32x1.v|
+!i113 1
+R11
+R12
+vand_nx1
+R0
+!i10b 1
+!s100 3`NEOIBUe>EQ1?5L>cL:e3
+IOPk2E:GJE2EVMMGjhK5GQ3
+R1
+R2
+w1543982395
+8F:/Verilog Workspace/OneCounter/and_nx1.v
+FF:/Verilog Workspace/OneCounter/and_nx1.v
+L0 2
+R7
+r1
+!s85 0
+31
+R8
+!s107 F:/Verilog Workspace/OneCounter/and_nx1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/Verilog Workspace/OneCounter/and_nx1.v|
+!i113 1
+R11
+R12
+vcomplement_32b
+R0
+!i10b 1
+!s100 Gc=0QMolNm:j7ahf4mVbI2
+I<Wl>7eYFzK@XVNg^0@K6k1
+R1
+R2
+w1540199724
+8F:/Verilog Workspace/OneCounter/complement_32b.v
+FF:/Verilog Workspace/OneCounter/complement_32b.v
+L0 2
+R7
+r1
+!s85 0
+31
+R8
+!s107 F:/Verilog Workspace/OneCounter/complement_32b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/Verilog Workspace/OneCounter/complement_32b.v|
+!i113 1
+R11
+R12
+vcounter_4b_u1
+Z14 !s110 1546863654
+!i10b 1
+!s100 TbIfACDm3:Tk@`[hiJ>I;1
+I]NOjNXA`EifBNW;zjce8f0
+R1
+R2
+Z15 w1546001971
+Z16 8F:/Verilog Workspace/OneCounter/counter_up.v
+Z17 FF:/Verilog Workspace/OneCounter/counter_up.v
+L0 3
+R7
+r1
+!s85 0
+31
+Z18 !s108 1546863654.000000
+Z19 !s107 F:/Verilog Workspace/OneCounter/counter_up.v|
+Z20 !s90 -reportprogress|300|-work|work|-stats=none|F:/Verilog Workspace/OneCounter/counter_up.v|
+!i113 1
+R11
+R12
+vcounter_4b_u2b
+R14
+!i10b 1
+!s100 W0DNNQo4?BjdF6cJj86R<1
+IS0][0637RHWf]n:OgOmAI2
+R1
+R2
+R15
+R16
+R17
+L0 100
+R7
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 1
+R11
+R12
+vdataMem_beh
+Z21 !s110 1546863657
+!i10b 1
+!s100 zebJEO8zC9AS<b[>UKO^?0
+IF5fSUkcUmXMXF<:>_aOIJ1
+R1
+R2
+w1545050420
+8F:/Verilog Workspace/OneCounter/RAM4Gb.v
+FF:/Verilog Workspace/OneCounter/RAM4Gb.v
+L0 2
+R7
+r1
+!s85 0
+31
+Z22 !s108 1546863657.000000
+!s107 F:/Verilog Workspace/OneCounter/RAM4Gb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/Verilog Workspace/OneCounter/RAM4Gb.v|
+!i113 1
+R11
+R12
+ndata@mem_beh
+vdecoder_2to4
+R14
+!i10b 1
+!s100 YM>PjOk<klVh9SRNzM2dg1
+I5`f:9n2hO7NZhH4nH=f=D2
+R1
+R2
+Z23 w1540806534
+Z24 8F:/Verilog Workspace/OneCounter/decoder.v
+Z25 FF:/Verilog Workspace/OneCounter/decoder.v
+L0 3
+R7
+r1
+!s85 0
+31
+R18
+Z26 !s107 F:/Verilog Workspace/OneCounter/decoder.v|
+Z27 !s90 -reportprogress|300|-work|work|-stats=none|F:/Verilog Workspace/OneCounter/decoder.v|
+!i113 1
+R11
+R12
+vdecoder_5to32
+R14
+!i10b 1
+!s100 Z985A4ko1Kk]kAkjimB8Y0
+InzX^MJJX>Mk=XY;n_<9]z2
+R1
+R2
+R23
+R24
+R25
+R6
+R7
+r1
+!s85 0
+31
+R18
+R26
+R27
+!i113 1
+R11
+R12
+vdff_beh1
+R14
+!i10b 1
+!s100 1FbMEz]dV6gG0ES>H:Ha41
+I`GzC9dAL>W?Bj9ec7ZaXB1
+R1
+R2
+Z28 w1544601175
+Z29 8F:/Verilog Workspace/OneCounter/dff.v
+Z30 FF:/Verilog Workspace/OneCounter/dff.v
+L0 76
+R7
+r1
+!s85 0
+31
+R18
+Z31 !s107 F:/Verilog Workspace/OneCounter/dff.v|
+Z32 !s90 -reportprogress|300|-work|work|-stats=none|F:/Verilog Workspace/OneCounter/dff.v|
+!i113 1
+R11
+R12
+vdff_beh2
+R14
+!i10b 1
+!s100 ^]22>cVDNlZba2[aEM9661
+IoI>5_j^Am^FhKTKkYS>TH2
+R1
+R2
+R28
+R29
+R30
+Z33 L0 86
+R7
+r1
+!s85 0
+31
+R18
+R31
+R32
+!i113 1
+R11
+R12
+vdff_rtl1
+R14
+!i10b 1
+!s100 Ezg`c_GE_0b0=_oGM?dPE1
+IOI>n6jj786oM@^T0_X=o`2
+R1
+R2
+R28
+R29
+R30
+L0 40
+R7
+r1
+!s85 0
+31
+R18
+R31
+R32
+!i113 1
+R11
+R12
+vdff_rtl2
+R14
+!i10b 1
+!s100 Y@]B?dG?fWTCAaB7?PBHJ1
+I?bDkRY]H3CHUkEWbIQja>1
+R1
+R2
+R28
+R29
+R30
+L0 60
+R7
+r1
+!s85 0
+31
+R18
+R31
+R32
+!i113 1
+R11
+R12
+vdff_str1
+R14
+!i10b 1
+!s100 k1KQJa<7BZAWdWNC^<<B<3
+IOhNg>EhcaWbQ]]dhGGV7j0
+R1
+R2
+R28
+R29
+R30
+L0 5
+R7
+r1
+!s85 0
+31
+R18
+R31
+R32
+!i113 1
+R11
+R12
+vdff_str2
+R14
+!i10b 1
+!s100 EO5Q:?YemP44F83K_Z^d42
+IjH08H9EIGHAWkmAGoDH>=2
+R1
+R2
+R28
+R29
+R30
+L0 25
+R7
+r1
+!s85 0
+31
+R18
+R31
+R32
+!i113 1
+R11
+R12
+vdlatch_rtl1
+Z34 !s110 1546863656
+!i10b 1
+!s100 ScHQ1bV;3PWP:o6UfGPaI3
+IeWUKATJ0:odZA4[eO0oHb3
+R1
+R2
+Z35 w1544098956
+Z36 8F:/Verilog Workspace/OneCounter/d-latch.v
+Z37 FF:/Verilog Workspace/OneCounter/d-latch.v
+Z38 L0 18
+R7
+r1
+!s85 0
+31
+R18
+Z39 !s107 F:/Verilog Workspace/OneCounter/d-latch.v|
+Z40 !s90 -reportprogress|300|-work|work|-stats=none|F:/Verilog Workspace/OneCounter/d-latch.v|
+!i113 1
+R11
+R12
+vdlatch_s1
+R34
+!i10b 1
+!s100 o9L<K0?2]@J@H0Nf;PLm]3
+IOaIX;cXlhD>kWV_OgIYoB0
+R1
+R2
+R35
+R36
+R37
+L0 30
+R7
+r1
+!s85 0
+31
+R18
+R39
+R40
+!i113 1
+R11
+R12
+vdlatch_srt1
+R34
+!i10b 1
+!s100 QYiQP4MU3O_KTT@db;KXh0
+IL45kl4>1n^ASi0kM6J;8=2
+R1
+R2
+R35
+R36
+R37
+L0 3
+R7
+r1
+!s85 0
+31
+R18
+R39
+R40
+!i113 1
+R11
+R12
+vfa_16b
+R34
+!i10b 1
+!s100 m;U@dQQ490Uf1jCS<]RP:2
+I?^N0[5^URSc6j_j0k::RS1
+R1
+R2
+Z41 w1544601405
+Z42 8F:/Verilog Workspace/OneCounter/fulladder_RTL.v
+Z43 FF:/Verilog Workspace/OneCounter/fulladder_RTL.v
+R13
+R7
+r1
+!s85 0
+31
+Z44 !s108 1546863656.000000
+Z45 !s107 F:/Verilog Workspace/OneCounter/fulladder_RTL.v|
+Z46 !s90 -reportprogress|300|-work|work|-stats=none|F:/Verilog Workspace/OneCounter/fulladder_RTL.v|
+!i113 1
+R11
+R12
+vfa_1b
+R34
+!i10b 1
+!s100 _[jc]?<hX^O@gZjHZ:S>@2
+IgA^cb8Qgcl@JHnOC0O6`W3
+R1
+R2
+R41
+R42
+R43
+L0 2
+R7
+r1
+!s85 0
+31
+R44
+R45
+R46
+!i113 1
+R11
+R12
+vfa_2b
+R34
+!i10b 1
+!s100 RUm;UYI?WEHGFOHjOHF;E1
+I12_QB0mQ[>28<bdiVK=]e2
+R1
+R2
+R41
+R42
+R43
+L0 16
+R7
+r1
+!s85 0
+31
+R44
+R45
+R46
+!i113 1
+R11
+R12
+vfa_32b
+R34
+!i10b 1
+!s100 _IdkbOfO3ZhLgE[ZCN`Z;2
+If8bFK>4]oETPTH>zDC^7o2
+R1
+R2
+R41
+R42
+R43
+L0 73
+R7
+r1
+!s85 0
+31
+R44
+R45
+R46
+!i113 1
+R11
+R12
+vfa_4b
+R34
+!i10b 1
+!s100 O_3VjI@EB;46gB>62^aHm1
+IocA;1T1L]dg>JA:i`1@GF1
+R1
+R2
+R41
+R42
+R43
+L0 28
+R7
+r1
+!s85 0
+31
+R44
+R45
+R46
+!i113 1
+R11
+R12
+vfa_8b
+R34
+!i10b 1
+!s100 _N4b<QW4RiI:cOnk@YklS2
+IGfHg2X:Z_]FBUSHTZW=MR3
+R1
+R2
+R41
+R42
+R43
+Z47 L0 42
+R7
+r1
+!s85 0
+31
+R44
+R45
+R46
+!i113 1
+R11
+R12
+vmemoryCell
+R34
+!i10b 1
+!s100 >P>1eHkSjL4h<Lf^@?oBZ1
+ILzF`Q]8NQI1mH1^<?OZ?32
+R1
+R2
+w1543282756
+8F:/Verilog Workspace/OneCounter/memoryCell.v
+FF:/Verilog Workspace/OneCounter/memoryCell.v
+L0 2
+R7
+r1
+!s85 0
+31
+R44
+!s107 F:/Verilog Workspace/OneCounter/memoryCell.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/Verilog Workspace/OneCounter/memoryCell.v|
+!i113 1
+R11
+R12
+nmemory@cell
+vmux2to1_rtl
+R34
+!i10b 1
+!s100 V2>?l<c[[dP5P>;W8=;]91
+IZ<EF^UCmY2[COI@@;i<Gj1
+R1
+R2
+Z48 w1546146601
+Z49 8F:/Verilog Workspace/OneCounter/mux_RTL.v
+Z50 FF:/Verilog Workspace/OneCounter/mux_RTL.v
+L0 2
+R7
+r1
+!s85 0
+31
+R44
+Z51 !s107 F:/Verilog Workspace/OneCounter/mux_RTL.v|
+Z52 !s90 -reportprogress|300|-work|work|-stats=none|F:/Verilog Workspace/OneCounter/mux_RTL.v|
+!i113 1
+R11
+R12
+vmux2to1_rtl_1b
+R34
+!i10b 1
+!s100 hCEoD74<jFc[djUZL3ieW0
+I_S9NMSVZO3Pn<U_ee@d[P3
+R1
+R2
+R48
+R49
+R50
+Z53 L0 41
+R7
+r1
+!s85 0
+31
+R44
+R51
+R52
+!i113 1
+R11
+R12
+vmux2to1_rtl_32b
+R34
+!i10b 1
+!s100 ozaHZBDO?=KPzKc:K@5aQ1
+IC@ad36jfhU4B04bSih^Ce3
+R1
+R2
+R48
+R49
+R50
+L0 69
+R7
+r1
+!s85 0
+31
+R44
+R51
+R52
+!i113 1
+R11
+R12
+vmux2to1_str
+R21
+!i10b 1
+!s100 I6L0R0YXfJXQT;USX:E5;1
+I3B5NR0kN_^8XdS8lKaQGV0
+R1
+R2
+Z54 w1544620843
+Z55 8F:/Verilog Workspace/OneCounter/mux_STR.v
+Z56 FF:/Verilog Workspace/OneCounter/mux_STR.v
+L0 2
+R7
+r1
+!s85 0
+31
+R44
+Z57 !s107 F:/Verilog Workspace/OneCounter/mux_STR.v|
+Z58 !s90 -reportprogress|300|-work|work|-stats=none|F:/Verilog Workspace/OneCounter/mux_STR.v|
+!i113 1
+R11
+R12
+vmux2to1_str_1b
+R21
+!i10b 1
+!s100 n2CKmL7QQNBbMIC2AbgW61
+IIBmiIQXIaciQ1Y[oz:P]L1
+R1
+R2
+R54
+R55
+R56
+R53
+R7
+r1
+!s85 0
+31
+R44
+R57
+R58
+!i113 1
+R11
+R12
+vmux4to1_rtl
+R34
+!i10b 1
+!s100 8Q=KN_hcJ9A6d24oVj9z22
+I8j>@gDPGJ]eH=4BG>FTL51
+R1
+R2
+R48
+R49
+R50
+R38
+R7
+r1
+!s85 0
+31
+R44
+R51
+R52
+!i113 1
+R11
+R12
+vmux4to1_rtl_1b
+R34
+!i10b 1
+!s100 Uf9RPN=LF1D_SBO`LbVR72
+IVEz2ooP@^g:?17`glQTGk1
+R1
+R2
+R48
+R49
+R50
+L0 54
+R7
+r1
+!s85 0
+31
+R44
+R51
+R52
+!i113 1
+R11
+R12
+vmux4to1_rtl_32b
+R34
+!i10b 1
+!s100 >fS4Z?AkPc]39=7gCJAn61
+IeP>dD1jmUJXdM5_eB:R3a3
+R1
+R2
+R48
+R49
+R50
+R33
+R7
+r1
+!s85 0
+31
+R44
+R51
+R52
+!i113 1
+R11
+R12
+vmux4to1_str
+R21
+!i10b 1
+!s100 zzkPXADO<7]i5QcT:^naH3
+IlGKVd>]>S5H6AYPd68[Vj1
+R1
+R2
+R54
+R55
+R56
+R38
+R7
+r1
+!s85 0
+31
+R44
+R57
+R58
+!i113 1
+R11
+R12
+vmux4to1_str_1b
+R21
+!i10b 1
+!s100 g?UYSmOQ@QFU_gmL3G9el3
+IaMC6XiV2n]z=QRKXaF;L<3
+R1
+R2
+R54
+R55
+R56
+L0 56
+R7
+r1
+!s85 0
+31
+R44
+R57
+R58
+!i113 1
+R11
+R12
+vmux8to1_rtl_32b
+R34
+!i10b 1
+!s100 P9nLoZYel4jg1?:MTkdIZ0
+IOkWeznT4AXLk<A0SAe]@Q2
+R1
+R2
+R48
+R49
+R50
+L0 108
+R7
+r1
+!s85 0
+31
+R44
+R51
+R52
+!i113 1
+R11
+R12
+voneCounter_v1_ctrlUnit
+Z59 !s110 1546863852
+!i10b 1
+!s100 Dg0]j?hWO:7a97e37SEKd2
+I2dbU:>LfCN2YXP<]AF7Bi3
+R1
+R2
+Z60 w1546863032
+Z61 8F:/Verilog Workspace/OneCounter/oneCounter_v1.v
+Z62 FF:/Verilog Workspace/OneCounter/oneCounter_v1.v
+L0 107
+R7
+r1
+!s85 0
+31
+Z63 !s108 1546863852.000000
+Z64 !s107 F:/Verilog Workspace/OneCounter/oneCounter_v1.v|
+Z65 !s90 -reportprogress|300|-work|work|-stats=none|F:/Verilog Workspace/OneCounter/oneCounter_v1.v|
+!i113 1
+R11
+R12
+none@counter_v1_ctrl@unit
+voneCounter_v1_datapath
+R59
+!i10b 1
+!s100 Do>aZ^0VdGB0>DdM_D_L?2
+IEU3AlC6K8:SM<>0AQRa2L3
+R1
+R2
+R60
+R61
+R62
+L0 33
+R7
+r1
+!s85 0
+31
+R63
+R64
+R65
+!i113 1
+R11
+R12
+none@counter_v1_datapath
+voneCounter_v1_fsm
+R59
+!i10b 1
+!s100 T50o<KPbeekOh0Y>@hC_Y2
+I2U0m_KK`I^OCgF9en<Xjo0
+R1
+R2
+R60
+R61
+R62
+L0 3
+R7
+r1
+!s85 0
+31
+R63
+R64
+R65
+!i113 1
+R11
+R12
+none@counter_v1_fsm
+voneCounter_v2_controlUnit
+R59
+!i10b 1
+!s100 dmmE`fRm_cln?iebWzaTg0
+ITM]==I:SSd2INn52mU1Ee3
+R1
+R2
+Z66 w1546164896
+Z67 8F:/Verilog Workspace/OneCounter/oneCounter_v2.v
+Z68 FF:/Verilog Workspace/OneCounter/oneCounter_v2.v
+L0 115
+R7
+r1
+!s85 0
+31
+R63
+Z69 !s107 F:/Verilog Workspace/OneCounter/oneCounter_v2.v|
+Z70 !s90 -reportprogress|300|-work|work|-stats=none|F:/Verilog Workspace/OneCounter/oneCounter_v2.v|
+!i113 1
+R11
+R12
+none@counter_v2_control@unit
+voneCounter_v2_datapath
+R59
+!i10b 1
+!s100 5Vd[>HCGf<cD?jk]MzHC00
+I0D]Q_Ic]mXl13N8NmFcgS3
+R1
+R2
+R66
+R67
+R68
+L0 39
+R7
+r1
+!s85 0
+31
+R63
+R69
+R70
+!i113 1
+R11
+R12
+none@counter_v2_datapath
+voneCounter_v2_fsm
+R59
+!i10b 1
+!s100 9b5mVH>@<7Jo@hG@H0K1j2
+I^oh`SZa5TO[_DHj`6X6K53
+R1
+R2
+R66
+R67
+R68
+L0 2
+R7
+r1
+!s85 0
+31
+R63
+R69
+R70
+!i113 1
+R11
+R12
+none@counter_v2_fsm
+vregisterFile_beh_32x32_1
+R21
+!i10b 1
+!s100 A<Q8g6K@YodK`okL4g?fZ3
+IJM7X^X^:7>>dWi@Ti<Wk]3
+R1
+R2
+Z71 w1546163331
+Z72 8F:/Verilog Workspace/OneCounter/registerFile.v
+Z73 FF:/Verilog Workspace/OneCounter/registerFile.v
+L0 332
+R7
+r1
+!s85 0
+31
+R22
+Z74 !s107 F:/Verilog Workspace/OneCounter/registerFile.v|
+Z75 !s90 -reportprogress|300|-work|work|-stats=none|F:/Verilog Workspace/OneCounter/registerFile.v|
+!i113 1
+R11
+R12
+nregister@file_beh_32x32_1
+vregisterFile_beh_32x32_2
+R21
+!i10b 1
+!s100 oD^hPQKhU8YT>FPFWl6Qd3
+Ig[MPVXKYlD?4CS4_5Cb030
+R1
+R2
+R71
+R72
+R73
+L0 375
+R7
+r1
+!s85 0
+31
+R22
+R74
+R75
+!i113 1
+R11
+R12
+nregister@file_beh_32x32_2
+vregisterFile_beh_32x32_3
+R21
+!i10b 1
+!s100 N?OaVI?PWHRfk4f@66@ez3
+I[5Li?;<N<PXfgR_kk^Wn93
+R1
+R2
+R71
+R72
+R73
+L0 407
+R7
+r1
+!s85 0
+31
+R22
+R74
+R75
+!i113 1
+R11
+R12
+nregister@file_beh_32x32_3
+vregisterFile_rtl_32x32_1
+R21
+!i10b 1
+!s100 Q`Hg=]6<XFaaOMI`F86420
+IA0HTE7d8PzI9K]ALZh^Sg0
+R1
+R2
+R71
+R72
+R73
+L0 6
+R7
+r1
+!s85 0
+31
+R22
+R74
+R75
+!i113 1
+R11
+R12
+nregister@file_rtl_32x32_1
+vRFC
+Z76 !s110 1546863658
+!i10b 1
+!s100 Pmg5P`2U9P4jm^=^iN_z63
+IeR;ATREQI:d`==>Tg>6RZ3
+R1
+R2
+w1541403690
+8F:/Verilog Workspace/OneCounter/registerFileCell.v
+FF:/Verilog Workspace/OneCounter/registerFileCell.v
+L0 2
+R7
+r1
+!s85 0
+31
+R22
+!s107 F:/Verilog Workspace/OneCounter/registerFileCell.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/Verilog Workspace/OneCounter/registerFileCell.v|
+!i113 1
+R11
+R12
+n@r@f@c
+vshifter_8b
+R76
+!i10b 1
+!s100 j2V[ZC2`zBIb0URk^6mzg1
+IUEki_IAn[VFCDbfXLG7gk0
+R1
+R2
+Z77 w1546163018
+Z78 8F:/Verilog Workspace/OneCounter/shifter_a.v
+Z79 FF:/Verilog Workspace/OneCounter/shifter_a.v
+L0 23
+R7
+r1
+!s85 0
+31
+Z80 !s108 1546863658.000000
+Z81 !s107 F:/Verilog Workspace/OneCounter/shifter_a.v|
+Z82 !s90 -reportprogress|300|-work|work|-stats=none|F:/Verilog Workspace/OneCounter/shifter_a.v|
+!i113 1
+R11
+R12
+vshifter_beh_1
+R76
+!i10b 1
+!s100 M>z28c@O[YIZLkbZg>feT3
+IKTd^1XZPEWSc[`l1mmXhM2
+R1
+R2
+R77
+R78
+R79
+L0 44
+R7
+r1
+!s85 0
+31
+R80
+R81
+R82
+!i113 1
+R11
+R12
+vshifter_beh_2
+R76
+!i10b 1
+!s100 S:?b@@TW@6Z;llmoJ4n6d3
+IBi2RK:R^jRV4PPT[a8gAO0
+R1
+R2
+R77
+R78
+R79
+L0 67
+R7
+r1
+!s85 0
+31
+R80
+R81
+R82
+!i113 1
+R11
+R12
+vshifter_beh_3
+R76
+!i10b 1
+!s100 AXLk<P3o9O1a^^[K3@bE_3
+IPOkmoRDic6P9lZC_@[;WV0
+R1
+R2
+R77
+R78
+R79
+L0 91
+R7
+r1
+!s85 0
+31
+R80
+R81
+R82
+!i113 1
+R11
+R12
+vshifter_beh_4
+R76
+!i10b 1
+!s100 78^n]<m@bS>Y_geMPJE7@1
+IgoG;bV0LoozQzN0B?14ic0
+R1
+R2
+R77
+R78
+R79
+L0 102
+R7
+r1
+!s85 0
+31
+R80
+R81
+R82
+!i113 1
+R11
+R12
+vshifter_nb
+R76
+!i10b 1
+!s100 3c58P>dfQF74TJA9E:ELZ0
+IQ<4iEP9K9lIkjJTF:L8m53
+R1
+R2
+R77
+R78
+R79
+L0 2
+R7
+r1
+!s85 0
+31
+R80
+R81
+R82
+!i113 1
+R11
+R12
+vshiftRegister_32b_1
+Z83 !s110 1546863689
+!i10b 1
+!s100 4N@On3m3K^2LdXMG^CHi03
+IiEcahGRQ3_kG<V]GK2i5M3
+R1
+R2
+Z84 w1546147744
+Z85 8F:/Verilog Workspace/OneCounter/shiftRegister.v
+Z86 FF:/Verilog Workspace/OneCounter/shiftRegister.v
+L0 217
+R7
+r1
+!s85 0
+31
+Z87 !s108 1546863689.000000
+Z88 !s107 F:/Verilog Workspace/OneCounter/shiftRegister.v|
+Z89 !s90 -reportprogress|300|-work|work|-stats=none|F:/Verilog Workspace/OneCounter/shiftRegister.v|
+!i113 1
+R11
+R12
+nshift@register_32b_1
+vshiftRegister_32b_2
+R83
+!i10b 1
+!s100 n`78ch`:KoC9QmKTN[ej03
+IkNI^S=aW<Wl>K_iYF>N;70
+R1
+R2
+R84
+R85
+R86
+L0 248
+R7
+r1
+!s85 0
+31
+R87
+R88
+R89
+!i113 1
+R11
+R12
+nshift@register_32b_2
+vshiftRegister_8b_1
+R83
+!i10b 1
+!s100 k;RR;HeId22A0P5^A3BRJ3
+I_k:=J3TD_TL:a_1W]fUfl2
+R1
+R2
+R84
+R85
+R86
+L0 3
+R7
+r1
+!s85 0
+31
+R87
+R88
+R89
+!i113 1
+R11
+R12
+nshift@register_8b_1
+vshiftRegister_8b_2
+R83
+!i10b 1
+!s100 IhblzogPBddJ_j9<Yo[1U0
+IOH[B[XIzQ=:>MLk]4b_[^1
+R1
+R2
+R84
+R85
+R86
+R47
+R7
+r1
+!s85 0
+31
+R87
+R88
+R89
+!i113 1
+R11
+R12
+nshift@register_8b_2
+vshiftRegister_8b_3
+R83
+!i10b 1
+!s100 =^MVz<j6SSaI?DgAF[]^b2
+IE]YQ0X11h4SJjhi56Z4^e1
+R1
+R2
+R84
+R85
+R86
+L0 185
+R7
+r1
+!s85 0
+31
+R87
+R88
+R89
+!i113 1
+R11
+R12
+nshift@register_8b_3
+vsubtractor_32b
+R76
+!i10b 1
+!s100 O_E_oMc4jP:Xa_LETZ14>3
+ITR77Ha]013f5KEfOUZ06c1
+R1
+R2
+w1540199126
+8F:/Verilog Workspace/OneCounter/subtractor_32b.v
+FF:/Verilog Workspace/OneCounter/subtractor_32b.v
+L0 2
+R7
+r1
+!s85 0
+31
+R80
+!s107 F:/Verilog Workspace/OneCounter/subtractor_32b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/Verilog Workspace/OneCounter/subtractor_32b.v|
+!i113 1
+R11
+R12
+vtest_oneCounter_v1_fsm
+Z90 !s110 1546868931
+!i10b 1
+!s100 D]3F:]]jnXfNIz4In;U5m0
+IgmLRRMmgQ=GXgm3FbkR9?3
+R1
+R2
+Z91 w1546868926
+Z92 8F:\Verilog Workspace\OneCounter\test_oneCounter.v
+Z93 FF:\Verilog Workspace\OneCounter\test_oneCounter.v
+L0 3
+R7
+r1
+!s85 0
+31
+Z94 !s108 1546868931.000000
+Z95 !s107 F:\Verilog Workspace\OneCounter\test_oneCounter.v|
+Z96 !s90 -reportprogress|300|-work|work|-stats=none|F:\Verilog Workspace\OneCounter\test_oneCounter.v|
+!i113 1
+R11
+R12
+ntest_one@counter_v1_fsm
+vtest_oneCounter_v2_fsm
+R90
+!i10b 1
+!s100 H<ZHUIZ4jX9ADkP]3Bl5J3
+IZN@l`VE0KcMePHXF8bg_?3
+R1
+R2
+R91
+R92
+R93
+L0 43
+R7
+r1
+!s85 0
+31
+R94
+R95
+R96
+!i113 1
+R11
+R12
+ntest_one@counter_v2_fsm

@@ -1,0 +1,214 @@
+{F:/Verilog Workspace/OneCounter/oneCounter_v1.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/OneCounter/oneCounter_v1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module oneCounter_v1_fsm
+-- Compiling module oneCounter_v1_datapath
+-- Compiling module oneCounter_v1_ctrlUnit
+
+Top level modules:
+	oneCounter_v1_fsm
+
+} {} {}} {F:/Verilog Workspace/OneCounter/oneCounter_v2.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/OneCounter/oneCounter_v2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module oneCounter_v2_fsm
+-- Compiling module oneCounter_v2_datapath
+-- Compiling module oneCounter_v2_controlUnit
+
+Top level modules:
+	oneCounter_v2_fsm
+
+} {} {}} {F:/Verilog Workspace/OneCounter/complement_32b.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/OneCounter/complement_32b.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module complement_32b
+
+Top level modules:
+	complement_32b
+
+} {} {}} {F:/Verilog Workspace/OneCounter/shiftRegister.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/OneCounter/shiftRegister.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shiftRegister_8b_1
+-- Compiling module shiftRegister_8b_2
+-- Compiling module shiftRegister_8b_3
+-- Compiling module shiftRegister_32b_1
+-- Compiling module shiftRegister_32b_2
+
+Top level modules:
+	shiftRegister_8b_1
+	shiftRegister_8b_2
+	shiftRegister_8b_3
+	shiftRegister_32b_1
+	shiftRegister_32b_2
+
+} {} {}} {F:/Verilog Workspace/OneCounter/mux_RTL.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/OneCounter/mux_RTL.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux2to1_rtl
+-- Compiling module mux4to1_rtl
+-- Compiling module mux2to1_rtl_1b
+-- Compiling module mux4to1_rtl_1b
+-- Compiling module mux2to1_rtl_32b
+-- Compiling module mux4to1_rtl_32b
+-- Compiling module mux8to1_rtl_32b
+
+Top level modules:
+	mux2to1_rtl
+	mux4to1_rtl
+	mux2to1_rtl_1b
+	mux4to1_rtl_1b
+	mux2to1_rtl_32b
+	mux4to1_rtl_32b
+	mux8to1_rtl_32b
+
+} {} {}} {F:/Verilog Workspace/OneCounter/counter_up.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/OneCounter/counter_up.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module counter_4b_u1
+-- Compiling module counter_4b_u2b
+
+Top level modules:
+	counter_4b_u1
+	counter_4b_u2b
+
+} {} {}} {F:/Verilog Workspace/OneCounter/fulladder_RTL.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/OneCounter/fulladder_RTL.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fa_1b
+-- Compiling module fa_2b
+-- Compiling module fa_4b
+-- Compiling module fa_8b
+-- Compiling module fa_16b
+-- Compiling module fa_32b
+
+Top level modules:
+	fa_2b
+	fa_4b
+	fa_32b
+
+} {} {}} {F:/Verilog Workspace/OneCounter/registerFile.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/OneCounter/registerFile.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module registerFile_rtl_32x32_1
+-- Compiling module registerFile_beh_32x32_1
+-- Compiling module registerFile_beh_32x32_2
+-- Compiling module registerFile_beh_32x32_3
+
+Top level modules:
+	registerFile_rtl_32x32_1
+	registerFile_beh_32x32_1
+	registerFile_beh_32x32_2
+	registerFile_beh_32x32_3
+
+} {} {}} {F:/Verilog Workspace/OneCounter/RAM4Gb.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/OneCounter/RAM4Gb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dataMem_beh
+
+Top level modules:
+	dataMem_beh
+
+} {} {}} {F:/Verilog Workspace/OneCounter/decoder.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/OneCounter/decoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder_2to4
+-- Compiling module decoder_5to32
+
+Top level modules:
+	decoder_2to4
+	decoder_5to32
+
+} {} {}} {F:/Verilog Workspace/OneCounter/subtractor_32b.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/OneCounter/subtractor_32b.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module subtractor_32b
+
+Top level modules:
+	subtractor_32b
+
+} {} {}} {F:/Verilog Workspace/OneCounter/ALU_32b.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/OneCounter/ALU_32b.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU_32b_1
+-- Compiling module ALU_32b_2
+
+Top level modules:
+	ALU_32b_1
+	ALU_32b_2
+
+} {} {}} {F:/Verilog Workspace/OneCounter/and_32x1.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/OneCounter/and_32x1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module and_32x1
+
+Top level modules:
+	and_32x1
+
+} {} {}} {F:/Verilog Workspace/OneCounter/dff.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/OneCounter/dff.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dff_str1
+-- Compiling module dff_str2
+-- Compiling module dff_rtl1
+-- Compiling module dff_rtl2
+-- Compiling module dff_beh1
+-- Compiling module dff_beh2
+
+Top level modules:
+	dff_str1
+	dff_str2
+	dff_rtl1
+	dff_rtl2
+	dff_beh1
+	dff_beh2
+
+} {} {}} {F:/Verilog Workspace/OneCounter/memoryCell.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/OneCounter/memoryCell.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module memoryCell
+
+Top level modules:
+	memoryCell
+
+} {} {}} {F:/Verilog Workspace/OneCounter/and_nx1.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/OneCounter/and_nx1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module and_nx1
+
+Top level modules:
+	and_nx1
+
+} {} {}} {F:/Verilog Workspace/OneCounter/mux_STR.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/OneCounter/mux_STR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux2to1_str
+-- Compiling module mux4to1_str
+-- Compiling module mux2to1_str_1b
+-- Compiling module mux4to1_str_1b
+
+Top level modules:
+	mux2to1_str
+	mux4to1_str
+	mux2to1_str_1b
+	mux4to1_str_1b
+
+} {} {}} {F:/Verilog Workspace/OneCounter/d-latch.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/OneCounter/d-latch.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dlatch_srt1
+-- Compiling module dlatch_rtl1
+-- Compiling module dlatch_s1
+
+Top level modules:
+	dlatch_srt1
+	dlatch_rtl1
+	dlatch_s1
+
+} {} {}} {F:/Verilog Workspace/OneCounter/registerFileCell.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/OneCounter/registerFileCell.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RFC
+
+Top level modules:
+	RFC
+
+} {} {}} {F:/Verilog Workspace/OneCounter/shifter_a.v} {1 {vlog -work work -stats=none {F:/Verilog Workspace/OneCounter/shifter_a.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shifter_nb
+-- Compiling module shifter_8b
+-- Compiling module shifter_beh_1
+-- Compiling module shifter_beh_2
+-- Compiling module shifter_beh_3
+-- Compiling module shifter_beh_4
+
+Top level modules:
+	shifter_nb
+	shifter_8b
+	shifter_beh_1
+	shifter_beh_2
+	shifter_beh_3
+	shifter_beh_4
+
+} {} {}}
