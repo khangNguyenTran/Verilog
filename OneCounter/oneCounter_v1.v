@@ -9,10 +9,10 @@ module oneCounter_v1_fsm(
   input[15:0]  i_data;
   input i_rst, i_clk;
 
-  wire loadShiftDataEn_, rst_c2d, oneFlat;
+  wire loadShiftDataEn_, rst_c2d, allBitsAreZero;
   oneCounter_v1_datapath datapath0(
     .o_data(o_data), 
-    .o_oneFlat(oneFlat),
+    .o_allBitsAreZero(allBitsAreZero),
     .i_data(i_data), 
     .i_loadShiftEn_(loadShiftDataEn_),
     .i_done(o_done),
@@ -24,19 +24,19 @@ module oneCounter_v1_fsm(
     .o_done(o_done), 
     .o_loadShiftDataEn_(loadShiftDataEn_), 
     .o_rst_(rst_c2d), 
-    .i_oneFlat(oneFlat), 
+    .i_allBitsAreZero(allBitsAreZero), 
     .i_rst(i_rst), 
     .i_clk(i_clk)
     );  
 endmodule
 // Datapath
 module oneCounter_v1_datapath(
-  o_data, o_oneFlat,
+  o_data, o_allBitsAreZero,
   i_data, i_loadShiftEn_, i_done,
   i_rst_, i_clk);
   
   output[15:0] o_data;
-  output o_oneFlat;
+  output o_allBitsAreZero;
   input[15:0] i_data;
   input i_loadShiftEn_, i_done, i_rst_, i_clk;
   
@@ -68,7 +68,7 @@ module oneCounter_v1_datapath(
     .i_clk(i_clk)
     );
     
-  assign o_oneFlat = 
+  assign o_allBitsAreZero = 
     i_loadShiftEn_ & i_rst_ &
     ~shiftRes[15] & ~shiftRes[14] & ~shiftRes[13] & ~shiftRes[12] &
     ~shiftRes[11] & ~shiftRes[10] & ~shiftRes[9]  & ~shiftRes[8] &
@@ -76,7 +76,7 @@ module oneCounter_v1_datapath(
     ~shiftRes[3]  & ~shiftRes[2]  & ~shiftRes[1]  & ~shiftRes[0]
     ;
   
-  assign isBitOne  = ~(shiftRes[0] ^ 1'b1);
+  assign isBitOne = shiftRes[0];
   
 	mux2to1_rtl #(16) m2(
     .o_res(add1Or0), 
@@ -106,11 +106,11 @@ endmodule
 // Control Unit
 module oneCounter_v1_ctrlUnit(
   o_done, o_loadShiftDataEn_, o_rst_, 
-  i_oneFlat, i_rst, i_clk);
+  i_allBitsAreZero, i_rst, i_clk);
   
   output o_done; 
   output o_loadShiftDataEn_, o_rst_;
-  input i_oneFlat;
+  input i_allBitsAreZero;
   input i_rst, i_clk;
   
   reg[1:0] state, nextState;
@@ -122,7 +122,7 @@ module oneCounter_v1_ctrlUnit(
   parameter done      = 2'b11;
   
   // next state logic
-  always@(state or i_rst or i_oneFlat) begin
+  always@(state or i_rst or i_allBitsAreZero) begin
     case(state)
 reset:begin
       nextState <= i_rst? reset: ready; 
@@ -131,7 +131,7 @@ ready:begin
       nextState <= counting;
       end    
 counting:begin
-      nextState <= i_rst? reset: (i_oneFlat? done: counting);
+      nextState <= i_rst? reset: (i_allBitsAreZero? done: counting);
       end
 done:begin
       nextState <= i_rst? reset: done;
@@ -146,7 +146,7 @@ done:begin
       state <= nextState;
   end
   // output logic
-  always@(state or i_rst or i_oneFlat) begin
+  always@(state or i_rst or i_allBitsAreZero) begin
     case(state)
 reset:begin
       o_done = 0;

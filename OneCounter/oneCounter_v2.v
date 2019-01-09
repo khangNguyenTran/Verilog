@@ -7,12 +7,12 @@ module oneCounter_v2_fsm(o_data, o_done, i_data, i_start, i_rst, i_clk);
     input i_rst;
     input i_clk;
 
-    wire ie, oe, we, rea, reb, s2, s1, s0, sh1, sh0, isZero, sysClk;
+    wire ie, oe, we, rea, reb, s2, s1, s0, sh1, sh0, allBitsAreZero, sysClk;
     wire[31:0] wa, raa, rab; 
 
     oneCounter_v2_datapath datapath0(
     .o_data(o_data), 
-    .o_isZero(isZero),
+    .o_allBitsAreZero(allBitsAreZero),
     .i_data(i_data),
     .i_ie(ie),
     .i_oe(oe),
@@ -32,13 +32,13 @@ module oneCounter_v2_fsm(o_data, o_done, i_data, i_start, i_rst, i_clk);
     .o_we(we), .o_rea(rea), .o_reb(reb),
     .o_s2(s2), .o_s1(s1),   .o_s0(s0),
     .o_sh1(sh1), .o_sh0(sh0),
-    .i_start(i_start), .i_rst(i_rst), .i_isZero(isZero), .i_clk(i_clk)
+    .i_start(i_start), .i_rst(i_rst), .i_allBitsAreZero(allBitsAreZero), .i_clk(i_clk)
     );
 endmodule
 
 module oneCounter_v2_datapath(
     o_data, 
-    o_isZero,
+    o_allBitsAreZero,
     i_data,
     i_ie,
     i_oe,
@@ -50,7 +50,7 @@ module oneCounter_v2_datapath(
     );
 
     output[31:0] o_data;
-    output o_isZero;
+    output o_allBitsAreZero;
     input [31:0] i_data;
     input i_ie, i_oe;
     input [2:0] i_wa, i_raa, i_rab; //8 registers
@@ -93,7 +93,7 @@ module oneCounter_v2_datapath(
         .i_clk(i_clk)
     );
 
-    assign o_isZero = 
+    assign o_allBitsAreZero = 
     ~(outData[0]| outData[1]  | outData[2]  | outData[3]  | outData[4]  | outData[5]  | outData[6]  | outData[7]  | outData[8]  | outData[9]  | 
     outData[10] | outData[11] | outData[12] | outData[13] | outData[14] | outData[15] | outData[16] | outData[17] | outData[18] | outData[19] | 
     outData[20] | outData[21] | outData[22] | outData[23] | outData[24] | outData[25] | outData[26] | outData[27] | outData[28] | outData[29] | 
@@ -121,7 +121,7 @@ module oneCounter_v2_controlUnit(
     o_we, o_rea, o_reb,
     o_s2, o_s1, o_s0,
     o_sh1, o_sh0,
-    i_start, i_rst, i_isZero, i_clk
+    i_start, i_rst, i_allBitsAreZero, i_clk
     );
   
   output o_done; 
@@ -135,7 +135,7 @@ module oneCounter_v2_controlUnit(
 
   input i_start;
   input i_rst;
-  input i_isZero;
+  input i_allBitsAreZero;
   input i_clk;
   
   reg[2:0] state, nextState;
@@ -184,7 +184,7 @@ s5:begin
       nextState <= s6;
       end
 s6:begin
-      nextState <= (i_isZero)? s7: s4;
+      nextState <= (i_allBitsAreZero)? s7: s4;
       end
 s7:begin
       nextState <= s0;
