@@ -68,13 +68,7 @@ module oneCounter_v1_datapath(
     .i_clk(i_clk)
     );
     
-  assign o_allBitsAreZero = 
-    i_loadShiftEn_ & i_rst_ &
-    ~shiftRes[15] & ~shiftRes[14] & ~shiftRes[13] & ~shiftRes[12] &
-    ~shiftRes[11] & ~shiftRes[10] & ~shiftRes[9]  & ~shiftRes[8] &
-    ~shiftRes[7]  & ~shiftRes[6]  & ~shiftRes[5]  & ~shiftRes[4] &
-    ~shiftRes[3]  & ~shiftRes[2]  & ~shiftRes[1]  & ~shiftRes[0]
-    ;
+  assign o_allBitsAreZero = i_loadShiftEn_ & i_rst_ & ~(|shiftRes);
   
   assign isBitOne = shiftRes[0];
   

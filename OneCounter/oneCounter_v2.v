@@ -93,11 +93,7 @@ module oneCounter_v2_datapath(
         .i_clk(i_clk)
     );
 
-    assign o_allBitsAreZero = 
-    ~(outData[0]| outData[1]  | outData[2]  | outData[3]  | outData[4]  | outData[5]  | outData[6]  | outData[7]  | outData[8]  | outData[9]  | 
-    outData[10] | outData[11] | outData[12] | outData[13] | outData[14] | outData[15] | outData[16] | outData[17] | outData[18] | outData[19] | 
-    outData[20] | outData[21] | outData[22] | outData[23] | outData[24] | outData[25] | outData[26] | outData[27] | outData[28] | outData[29] | 
-    outData[30] | outData[31]);
+    assign o_allBitsAreZero = i_sh1 & i_sh0 & ~(|outData);
      
 
     shifter_beh_4 #(32) shifter0(
@@ -159,6 +155,7 @@ module oneCounter_v2_controlUnit(
 
     assign o_sysClk = sysClk;
     always@(posedge i_clk)begin
+    @(posedge i_clk)
     sysClk <= (i_rst)? 1'b0: ~sysClk;
     end
 
@@ -166,28 +163,28 @@ module oneCounter_v2_controlUnit(
   always@(state or i_rst) begin
     case(state)
 s0:begin
-      nextState <= (i_start)? s1: s0;
+      nextState = (i_start)? s1: s0;
       end
 s1:begin
-      nextState <= s2;
+      nextState = s2;
       end    
 s2:begin
-      nextState <= s3;
+      nextState = s3;
       end
 s3:begin
-      nextState <= s4;
+      nextState = s4;
       end
 s4:begin
-      nextState <= s5;
+      nextState = s5;
       end
 s5:begin
-      nextState <= s6;
+      nextState = s6;
       end
-s6:begin
-      nextState <= (i_allBitsAreZero)? s7: s4;
+s6:begin // shift right 1 bit
+      nextState = (i_allBitsAreZero)? s7: s4;
       end
 s7:begin
-      nextState <= s0;
+      nextState = s0;
       end
     endcase      
   end
